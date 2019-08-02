@@ -6,3 +6,10 @@ def reverse_each_word(string)
   end
   reverse_string.strip
 end
+
+def reverse_each_word
+  new_string = string.split(" ")
+  new_array = new_string.collect do |item|
+    item.reverse
+  end
+end
