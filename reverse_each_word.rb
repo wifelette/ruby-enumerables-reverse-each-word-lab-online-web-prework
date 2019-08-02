@@ -7,7 +7,7 @@ def reverse_each_word(string)
   reverse_string.strip
 end
 
-def reverse_each_word
+def reverse_each_word(string)
   new_string = string.split(" ")
   new_array = new_string.collect do |item|
     item.reverse
